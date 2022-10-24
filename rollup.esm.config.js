@@ -22,7 +22,7 @@ import babel from '@rollup/plugin-babel'
 import { DEFAULT_EXTENSIONS } from '@babel/core' 
 
 export default {
-  input: path.resolve(__dirnameNew, './src/index.ts'),
+  input: path.resolve(__dirnameNew, './bin/index.js'),
   output: [
     {
       dir: path.resolve(__dirnameNew, 'dist/esm'),

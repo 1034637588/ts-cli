@@ -1,18 +1,19 @@
 {
   "name": "zly-ts-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ts npm工具项目模板",
   "main": "index.js",
   "module": "./dist/index.esm.js",
   "umd": "./dist/index.umd.js",
   "files": [
-    "dist"
+    "dist/",
+    "bin/"
   ],
   "bin": {
-    "ts-cli": "./src/bin/index.js"
+    "ts-cli": "./bin/index.js"
   },
   "scripts": {
-    "ts-cli": "node --loader ts-node/esm ./src/index.ts",
+    "ts-cli": "node --loader ts-node/esm ./bin/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run build:esm & npm run build:umd & npm run build:cjs",
     "build:cjs": "rollup -c rollup.cjs.config.js",
