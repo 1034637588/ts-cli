@@ -1,0 +1,1 @@
+export const templateRepo = 'direct:https://github.com/1034637588/rollup-ts-template';
