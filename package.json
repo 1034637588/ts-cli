@@ -1,13 +1,13 @@
 {
   "name": "zly-ts-cli",
-  "version": "1.0.1",
+  "version": "1.0.9",
   "description": "ts npm工具项目模板",
   "main": "index.js",
-  "module": "./dist/index.esm.js",
-  "umd": "./dist/index.umd.js",
+  "module": "./index.esm.js",
+  "umd": "./index.umd.js",
   "files": [
-    "dist/",
-    "bin/"
+    "index.js",
+    "bin/index.js"
   ],
   "bin": {
     "ts-cli": "./bin/index.js"
